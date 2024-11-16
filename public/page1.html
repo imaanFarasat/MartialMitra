@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martial Arts Business Expansion Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Martial Arts Business Expansion Form</h1>
+        <form id="expansionForm">
+            <div class="question">
+                <label for="businessName">1. What is the name of your martial arts business?</label>
+                <input type="text" id="businessName" name="businessName" required>
+            </div>
+
+            <div class="question">
+                <label for="studioLocation">2. Where is your martial arts studio located?</label>
+                <input type="text" id="studioLocation" name="studioLocation" required>
+            </div>
+
+            <div class="question">
+                <label>3. How long have you been operating your martial arts business?</label>
+                <label><input type="radio" name="operationDuration" value="Less than 1 year" required> Less than 1 year</label>
+                <label><input type="radio" name="operationDuration" value="1-3 years"> 1-3 years</label>
+                <label><input type="radio" name="operationDuration" value="3-5 years"> 3-5 years</label>
+                <label><input type="radio" name="operationDuration" value="5+ years"> 5+ years</label>
+            </div>
+
+            <div class="question">
+                <label>4. Do you currently own or lease your facility?</label>
+                <label><input type="radio" name="ownership" value="Own" required> Own</label>
+                <label><input type="radio" name="ownership" value="Lease"> Lease</label>
+            </div>
+
+            <div class="question">
+                <label>5. What is the square footage of your current location?</label>
+                <label><input type="radio" name="squareFootage" value="Less than 1,000 sq. ft." required> Less than 1,000 sq. ft.</label>
+                <label><input type="radio" name="squareFootage" value="1,000 - 2,000 sq. ft."> 1,000 - 2,000 sq. ft.</label>
+                <label><input type="radio" name="squareFootage" value="2,000 - 3,000 sq. ft."> 2,000 - 3,000 sq. ft.</label>
+                <label><input type="radio" name="squareFootage" value="More than 3,000 sq. ft."> More than 3,000 sq. ft.</label>
+            </div>
+
+            <div class="question">
+                <label>6. What martial arts styles do you currently teach? (Select all that apply)</label>
+                <label><input type="checkbox" name="martialArtsStyles" value="Karate"> Karate</label>
+                <label><input type="checkbox" name="martialArtsStyles" value="Taekwondo"> Taekwondo</label>
+                <label><input type="checkbox" name="martialArtsStyles" value="Judo"> Judo</label>
+                <label><input type="checkbox" name="martialArtsStyles" value="Brazilian Jiu-Jitsu"> Brazilian Jiu-Jitsu</label>
+                <label><input type="checkbox" name="martialArtsStyles" value="Muay Thai"> Muay Thai</label>
+                <label><input type="checkbox" name="martialArtsStyles" value="Boxing"> Boxing</label>
+                <label><input type="checkbox" name="martialArtsStyles" value="Kickboxing"> Kickboxing</label>
+                <label><input type="checkbox" name="martialArtsStyles" value="Kung Fu"> Kung Fu</label>
+                <label><input type="checkbox" name="martialArtsStyles" value="Other"> Other: <input type="text" name="otherMartialArts"></label>
+            </div>
+
+            <div class="question">
+                <label>7. What age groups do you currently serve?</label>
+                <label><input type="checkbox" name="ageGroups" value="Children (Under 12)"> Children (Under 12)</label>
+                <label><input type="checkbox" name="ageGroups" value="Teenagers (12-18)"> Teenagers (12-18)</label>
+                <label><input type="checkbox" name="ageGroups" value="Adults (18-45)"> Adults (18-45)</label>
+                <label><input type="checkbox" name="ageGroups" value="Seniors (45+)"> Seniors (45+)</label>
+            </div>
+
+            <div class="question">
+                <label>8. What types of classes do you offer?</label>
+                <label><input type="checkbox" name="classTypes" value="Group Classes"> Group Classes</label>
+                <label><input type="checkbox" name="classTypes" value="Private Lessons"> Private Lessons</label>
+                <label><input type="checkbox" name="classTypes" value="Online Training"> Online Training</label>
+                <label><input type="checkbox" name="classTypes" value="Family Classes"> Family Classes</label>
+                <label><input type="checkbox" name="classTypes" value="Self-defense Classes"> Self-defense Classes</label>
+                <label><input type="checkbox" name="classTypes" value="Other"> Other: <input type="text" name="otherClasses"></label>
+            </div>
+
+            <div class="question">
+                <label>9. How many students do you currently have?</label>
+                <label><input type="radio" name="studentCount" value="Less than 20" required> Less than 20</label>
+                <label><input type="radio" name="studentCount" value="20-50"> 20-50</label>
+                <label><input type="radio" name="studentCount" value="50-100"> 50-100</label>
+                <label><input type="radio" name="studentCount" value="100+"> 100+</label>
+            </div>
+
+            <div class="question">
+                <label>10. Do you currently offer any special programs or events?</label>
+                <label><input type="radio" name="specialPrograms" value="Yes" required> Yes</label>
+                <label><input type="radio" name="specialPrograms" value="No"> No</label>
+            </div>
+
+            <div class="question">
+                <label>11. Do you have any specific certifications or affiliations with martial arts organizations?</label>
+                <label><input type="radio" name="certifications" value="Yes" required> Yes</label>
+                <label><input type="radio" name="certifications" value="No"> No</label>
+                <label>If yes, please list: <input type="text" name="certificationsList"></label>
+            </div>
+
+            <div class="question">
+                <label>12. What is your primary goal for expanding your martial arts business?</label>
+                <label><input type="radio" name="primaryGoal" value="Increase students" required> Increase the number of students</label>
+                <label><input type="radio" name="primaryGoal" value="Open new locations"> Open additional locations</label>
+                <label><input type="radio" name="primaryGoal" value="Offer new services"> Offer new services or martial arts styles</label>
+                <label><input type="radio" name="primaryGoal" value="Build brand"> Build a brand presence</label>
+                <label><input type="radio" name="primaryGoal" value="Expand online"> Expand online classes or programs</label>
+                <label><input type="radio" name="primaryGoal" value="Other"> Other: <input type="text" name="otherGoal"></label>
+            </div>
+
+            <div class="question">
+                <label>13. What are your key milestones for the next 1-3 years?</label>
+                <label><input type="checkbox" name="milestones" value="New branch"> Opening a new branch</label>
+                <label><input type="checkbox" name="milestones" value="Increase membership"> Increasing membership by a specific percentage</label>
+                <label><input type="checkbox" name="milestones" value="Host events"> Hosting events or tournaments</label>
+                <label><input type="checkbox" name="milestones" value="Launch website"> Launching a website or mobile app</label>
+                <label><input type="checkbox" name="milestones" value="Develop merchandise"> Developing merchandise or training materials</label>
+                <label><input type="checkbox" name="milestones" value="Other"> Other: <input type="text" name="otherMilestones"></label>
+            </div>
+
+            <div class="question">
+                <label>14. What are your long-term goals (5-10 years) for your martial arts business?</label>
+                <textarea name="longTermGoals" rows="4" required></textarea>
+            </div>
+
+            <div class="question">
+                <label>15. Who are your main competitors in the local area?</label>
+                <label><input type="checkbox" name="competitors" value="Gym chains"> Gym chains</label>
+                <label><input type="checkbox" name="competitors" value="Independent schools"> Independent martial arts schools</label>
+                <label><input type="checkbox" name="competitors" value="Fitness centers"> Fitness centers with martial arts programs</label>
+                <label><input type="checkbox" name="competitors" value="Online platforms"> Online martial arts platforms</label>
+                <label><input type="checkbox" name="competitors" value="Other"> Other: <input type="text" name="otherCompetitors"></label>
+            </div>
+
+            <div class="question">
+                <label>16. What makes your martial arts school unique?</label>
+                <textarea name="uniqueFeatures" rows="4" required></textarea>
+            </div>
+
+            <div class="question">
+                <label>17. How do you currently market your martial arts business?</label>
+                <label><input type="checkbox" name="marketingMethods" value="Social media"> Social media</label>
+                <label><input type="checkbox" name="marketingMethods" value="Local advertising"> Local advertising (newspapers, flyers)</label>
+                <label><input type="checkbox" name="marketingMethods" value="Word of mouth"> Word of mouth</label>
+                <label><input type="checkbox" name="marketingMethods" value="Website"> Website</label>
+                <label><input type="checkbox" name="marketingMethods" value="Community events"> Community events</label>
+                <label><input type="checkbox" name="marketingMethods" value="Other"> Other: <input type="text" name="otherMarketing"></label>
+            </div>
+
+            <div class="question">
+                <label>18. What is your current monthly revenue?</label>
+                <label><input type="radio" name="monthlyRevenue" value="Less than $5,000" required> Less than $5,000</label>
+                <label><input type="radio" name="monthlyRevenue" value="$5,000 - $10,000"> $5,000 - $10,000</label>
+                <label><input type="radio" name="monthlyRevenue" value="$10,000 - $20,000"> $10,000 - $20,000</label>
+                <label><input type="radio" name="monthlyRevenue" value="More than $20,000"> More than $20,000</label>
+            </div>
+
+            <div class="question">
+                <label>19. How many full-time instructors do you employ?</label>
+                <input type="number" name="fullTimeInstructors" min="0" required>
+            </div>
+
+            <div class="question">
+                <label>20. How many part-time instructors do you employ?</label>
+                <input type="number" name="partTimeInstructors" min="0" required>
+            </div>
+
+            <div class="question">
+                <label>21. Do you offer any supplementary services or products?</label>
+                <label><input type="checkbox" name="supplementaryServices" value="Equipment sales"> Equipment sales</label>
+                <label><input type="checkbox" name="supplementaryServices" value="Nutritional products"> Nutritional products</label>
+                <label><input type="checkbox" name="supplementaryServices" value="Merchandise"> Branded merchandise</label>
+                <label><input type="checkbox" name="supplementaryServices" value="Personal training"> Personal training</label>
+                <label><input type="checkbox" name="supplementaryServices" value="Other"> Other: <input type="text" name="otherServices"></label>
+            </div>
+
+            <div class="question">
+                <label>22. What is your current student retention rate?</label>
+                <label><input type="radio" name="retentionRate" value="Less than 50%" required> Less than 50%</label>
+                <label><input type="radio" name="retentionRate" value="50% - 70%"> 50% - 70%</label>
+                <label><input type="radio" name="retentionRate" value="70% - 90%"> 70% - 90%</label>
+                <label><input type="radio" name="retentionRate" value="More than 90%"> More than 90%</label>
+            </div>
+
+            <div class="question">
+                <label>23. Do you have a formal business plan?</label>
+                <label><input type="radio" name="businessPlan" value="Yes" required> Yes</label>
+                <label><input type="radio" name="businessPlan" value="No"> No</label>
+            </div>
+
+            <div class="question">
+                <label>24. How do you handle student progress tracking and belt promotions?</label>
+                <textarea name="progressTracking" rows="4" required></textarea>
+            </div>
+
+            <div class="question">
+                <label>25. What software or systems do you use for managing your business?</label>
+                <textarea name="businessSoftware" rows="4" required></textarea>
+            </div>
+
+            <div class="question">
+                <label>26. Do you participate in or host martial arts competitions?</label>
+                <label><input type="radio" name="competitions" value="Yes" required> Yes</label>
+                <label><input type="radio" name="competitions" value="No"> No</label>
+            </div>
+
+            <div class="question">
+                <label>27. What are the biggest challenges you face in your martial arts business?</label>
+                <textarea name="businessChallenges" rows="4" required></textarea>
+            </div>
+
+            <div class="question">
+                <label>28. Are you interested in franchising your martial arts business?</label>
+                <label><input type="radio" name="franchising" value="Yes" required> Yes</label>
+                <label><input type="radio" name="franchising" value="No"> No</label>
+                <label><input type="radio" name="franchising" value="Maybe"> Maybe</label>
+            </div>
+
+            <div class="question">
+                <label>29. How do you stay updated with the latest trends and techniques in martial arts?</label>
+                <textarea name="stayingUpdated" rows="4" required></textarea>
+            </div>
+
+            <div class="question">
+                <label>30. What additional resources or support would be most helpful for expanding your business?</label>
+                <textarea name="expansionSupport" rows="4" required></textarea>
+            </div>
+            
+            <div class="question">
+                <label>31. How do you currently handle student billing and payments?</label>
+                <label><input type="radio" name="billingMethod" value="Manual" required> Manual (cash, checks)</label>
+                <label><input type="radio" name="billingMethod" value="Software"> Billing software</label>
+                <label><input type="radio" name="billingMethod" value="ThirdParty"> Third-party service</label>
+                <label><input type="radio" name="billingMethod" value="Other"> Other: <input type="text" name="otherBillingMethod"></label>
+            </div>
+            
+            <div class="question">
+                <label>32. Do you offer any membership packages or long-term contracts?</label>
+                <label><input type="radio" name="membershipPackages" value="Yes" required> Yes</label>
+                <label><input type="radio" name="membershipPackages" value="No"> No</label>
+            </div>
+            
+            <div class="question">
+                <label>33. What is your average monthly student acquisition cost?</label>
+                <input type="number" name="acquisitionCost" min="0" step="0.01" required>
+            </div>
+            
+            <div class="question">
+                <label>34. What is your current student-to-instructor ratio?</label>
+                <input type="text" name="studentInstructorRatio" required>
+            </div>
+            
+            <div class="question">
+                <label>35. Do you have a formal curriculum or syllabus for each martial art you teach?</label>
+                <label><input type="radio" name="formalCurriculum" value="Yes" required> Yes</label>
+                <label><input type="radio" name="formalCurriculum" value="No"> No</label>
+            </div>
+            
+            <div class="question">
+                <label>36. How often do you update your teaching methods or curriculum?</label>
+                <label><input type="radio" name="curriculumUpdate" value="Monthly" required> Monthly</label>
+                <label><input type="radio" name="curriculumUpdate" value="Quarterly"> Quarterly</label>
+                <label><input type="radio" name="curriculumUpdate" value="Annually"> Annually</label>
+                <label><input type="radio" name="curriculumUpdate" value="Rarely"> Rarely</label>
+            </div>
+            
+            <div class="question">
+                <label>37. Do you have a referral program for existing students?</label>
+                <label><input type="radio" name="referralProgram" value="Yes" required> Yes</label>
+                <label><input type="radio" name="referralProgram" value="No"> No</label>
+            </div>
+            
+            <div class="question">
+                <label>38. What percentage of your new students come from referrals?</label>
+                <input type="number" name="referralPercentage" min="0" max="100" required>
+            </div>
+            
+            <div class="question">
+                <label>39. Do you have a website for your martial arts school?</label>
+                <label><input type="radio" name="hasWebsite" value="Yes" required> Yes</label>
+                <label><input type="radio" name="hasWebsite" value="No"> No</label>
+            </div>
+            
+            <div class="question">
+                <label>40. How active are you on social media platforms?</label>
+                <label><input type="radio" name="socialMediaActivity" value="Very active" required> Very active</label>
+                <label><input type="radio" name="socialMediaActivity" value="Somewhat active"> Somewhat active</label>
+                <label><input type="radio" name="socialMediaActivity" value="Not very active"> Not very active</label>
+                <label><input type="radio" name="socialMediaActivity" value="Not at all"> Not at all</label>
+            </div>
+            
+            <div class="question">
+                <label>41. Do you use email marketing to engage with your students or prospects?</label>
+                <label><input type="radio" name="emailMarketing" value="Yes" required> Yes</label>
+                <label><input type="radio" name="emailMarketing" value="No"> No</label>
+            </div>
+            
+            <div class="question">
+                <label>42. How do you measure student satisfaction?</label>
+                <label><input type="checkbox" name="satisfactionMeasure" value="Surveys"> Surveys</label>
+                <label><input type="checkbox" name="satisfactionMeasure" value="Informal feedback"> Informal feedback</label>
+                <label><input type="checkbox" name="satisfactionMeasure" value="Retention rates"> Retention rates</label>
+                <label><input type="checkbox" name="satisfactionMeasure" value="Other"> Other: <input type="text" name="otherSatisfactionMeasure"></label>
+            </div>
+            
+            <div class="question">
+                <label>43. What is your process for handling student complaints or concerns?</label>
+                <textarea name="complaintProcess" rows="4" required></textarea>
+            </div>
+            
+            <div class="question">
+                <label>44. Do you offer any cross-training opportunities with other martial arts styles?</label>
+                <label><input type="radio" name="crossTraining" value="Yes" required> Yes</label>
+                <label><input type="radio" name="crossTraining" value="No"> No</label>
+            </div>
+            
+            <div class="question">
+                <label>45. How do you stay informed about industry trends and best practices?</label>
+                <label><input type="checkbox" name="industryTrends" value="Conferences"> Conferences</label>
+                <label><input type="checkbox" name="industryTrends" value="Trade publications"> Trade publications</label>
+                <label><input type="checkbox" name="industryTrends" value="Online forums"> Online forums</label>
+                <label><input type="checkbox" name="industryTrends" value="Networking"> Networking</label>
+                <label><input type="checkbox" name="industryTrends" value="Other"> Other: <input type="text" name="otherIndustryTrends"></label>
+            </div>
+            
+            <div class="question">
+                <label>46. Do you have any partnerships with local schools or community organizations?</label>
+                <label><input type="radio" name="communityPartnerships" value="Yes" required> Yes</label>
+                <label><input type="radio" name="communityPartnerships" value="No"> No</label>
+            </div>
+            
+            <div class="question">
+                <label>47. What is your approach to incorporating technology in your martial arts instruction?</label>
+                <textarea name="technologyApproach" rows="4" required></textarea>
+            </div>
+            
+            <div class="question">
+                <label>48. Do you offer any specialized programs for specific groups (e.g., women's self-defense, kids anti-bullying)?</label>
+                <label><input type="radio" name="specializedPrograms" value="Yes" required> Yes</label>
+                <label><input type="radio" name="specializedPrograms" value="No"> No</label>
+                <label>If yes, please specify: <input type="text" name="specializedProgramsList"></label>
+            </div>
+            
+            <div class="question">
+                <label>49. How do you handle equipment and facility maintenance?</label>
+                <textarea name="maintenanceApproach" rows="4" required></textarea>
+            </div>
+            
+            <div class="question">
+                <label>50. Do you have any plans to diversify your revenue streams (e.g., merchandise, seminars)?</label>
+                <label><input type="radio" name="revenueDiversification" value="Yes" required> Yes</label>
+                <label><input type="radio" name="revenueDiversification" value="No"> No</label>
+                <label>If yes, please explain: <input type="text" name="diversificationPlans"></label>
+            </div>
+            
+            <div class="question">
+                <label>51. How do you ensure the safety of your students during training?</label>
+                <textarea name="safeteMeasures" rows="4" required></textarea>
+            </div>
+            
+            <div class="question">
+                <label>52. Do you have liability insurance for your martial arts school?</label>
+                <label><input type="radio" name="liabilityInsurance" value="Yes" required> Yes</label>
+                <label><input type="radio" name="liabilityInsurance" value="No"> No</label>
+            </div>
+            
+            <div class="question">
+                <label>53. How do you handle student rank promotions and testing?</label>
+                <textarea name="promotionProcess" rows="4" required></textarea>
+            </div>
+            
+            <div class="question">
+                <label>54. Do you have a succession plan for your business?</label>
+                <label><input type="radio" name="successionPlan" value="Yes" required> Yes</label>
+                <label><input type="radio" name="successionPlan" value="No"> No</label>
+            </div>
+            
+            <div class="question">
+                <label>55. What is your policy on instructor training and development?</label>
+                <textarea name="instructorDevelopment" rows="4" required></textarea>
+            </div>
+            
+            <div class="question">
+                <label>56. How do you handle seasonal fluctuations in student enrollment?</label>
+                <textarea name="seasonalFluctuations" rows="4" required></textarea>
+            </div>
+            
+            <div class="question">
+                <label>57. Do you have any green or eco-friendly initiatives in your school?</label>
+                <label><input type="radio" name="ecoFriendly" value="Yes" required> Yes</label>
+                <label><input type="radio" name="ecoFriendly" value="No"> No</label>
+                <label>If yes, please describe: <input type="text" name="ecoFriendlyInitiatives"></label>
+            </div>
+            
+            <div class="question">
+                <label>58. How do you approach conflict resolution among students?</label>
+                <textarea name="conflictResolution" rows="4" required></textarea>
+            </div>
+            
+            <div class="question">
+                <label>59. Do you have any plans to write a book or create instructional videos?</label>
+                <label><input type="radio" name="contentCreation" value="Yes" required> Yes</label>
+                <label><input type="radio" name="contentCreation" value="No"> No</label>
+                <label>If yes, please elaborate: <input type="text" name="contentCreationPlans"></label>
+            </div>
+            
+            <button class="start-btn" id="startBtn">Submit 🚀</button>
+            </form>
+            </div>
+            <script>
+                document.getElementById("startBtn").addEventListener("click", function() {
+                    window.location.href = 'thankYouPage.html'; // Relative path assuming both files are in the same folder
+                });
+            </script>
+</body>
+</html>
